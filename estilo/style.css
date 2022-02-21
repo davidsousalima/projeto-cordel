@@ -13,7 +13,7 @@
     padding: 0px;
 }
 html, body{
-    min-width: 100vh;
+    min-width: 100%;
     background-color: darkgray;
     font-family: var(--fonte1);
 }
@@ -41,6 +41,7 @@ a:hover{
     text-decoration: underline;
 }
 section{
+    
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
@@ -59,6 +60,7 @@ section.imagem{
     background-attachment: fixed;
 }
 section.imagem > p{
+    
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.507);
@@ -69,13 +71,15 @@ section > p{
 }
 section#img01{
     background-image: url('../imagens/background001.jpg');
-    background-position: right center;
+    background-position: center right;
     background-size: cover;
+    
 
 }
 section#img02{
     background-image:url('../imagens/background002.jpg') ;
     background-size: cover;
+
 
 }
 footer{
